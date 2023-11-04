@@ -1,0 +1,41 @@
+.row {
+  display: flex;
+  gap: 4em;
+  margin-bottom: 4em;
+  margin-left: 4em;
+}
+
+.card_one {
+  width: 15em;
+  height: 20em;
+  background-color: white;
+  margin-top: 4em;
+  border: 0.1em solid rgb(221, 6, 6);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .2em;
+  border-top-right-radius: 4em;
+  border-bottom-left-radius: 4em;
+}
+
+.card_one:hover{
+  box-shadow:.3rem.7rem rgb(254, 84, 84);
+  border-radius: .2em;
+  border-top-right-radius: 4em;
+  border-bottom-left-radius: 4em;
+}
+
+.photocard {
+  height: 15em;
+  width: 14em;
+  margin-top: 1em;
+}
+
+span {
+  font-family: "Dai Banna SIL", serif;
+  font-size: 1.5em;
+  position: relative;
+  top: 1em;
+}

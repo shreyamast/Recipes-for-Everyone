@@ -1,0 +1,171 @@
+.navbar {
+    height: 10vh;
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    /* position: fixed; */
+  }
+
+  .logo {
+    height: 8vh;
+    margin-left: 3.125em;
+    /* width: 50px; */
+    padding: 0.625em;
+  }
+
+  .cuisine {
+    padding: 0.6em;
+    font-size: 1.5em;
+    display: flex;
+    gap: 2.5em;
+    margin-left: 3.125em;
+    margin-top: 0.7em;
+    flex-grow: 1;
+    justify-content: center;
+    background: linear-gradient(to right, #f63a3a, #fc3b76, #fc6739);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: "Dai Banna SIL", serif;
+  }
+
+  .side {
+    height: 5vh;
+    margin: 0.6em;
+    margin-top: 1.25em;
+  }
+
+  .footer {
+    /* border-top: 2px solid white; */
+    height: 30vh;
+    width: 80vw;
+    position: absolute;
+    bottom: -45em;
+    border-top: 0.1em solid white;
+  }
+
+  .footer_logo {
+    height: 20vh;
+    position: relative;
+    top: 3em;
+    left: 2em;
+    border: 0.125em solid white;
+    border-radius: 5em;
+  }
+
+  .text {
+    font-size: 3em;
+    position: relative;
+    left: 5em;
+    bottom: 2em;
+    font-family: "Dai Banna SIL", serif;
+    color: white;
+  }
+
+  ul a {
+    color: #ffffff;
+    position: relative;
+    left: 25em;
+    bottom: -31em;
+    font-size: 1.5em;
+    font-family: "Dai Banna SIL", serif;
+    text-decoration: none;
+  }
+
+
+.footer_copy {
+    color: white;
+    position: absolute;
+    right: 2em;
+    bottom: -54em;
+    font-family: monospace;
+  }
+  
+  .footer-contact {
+    color: white;
+    position: absolute;
+    right: 2em;
+    bottom: -29em;
+    font-size: 1.5em;
+    font-family: "Dai Banna SIL", serif;
+  }
+
+   body {
+    background-color: black;
+    width: 50vw;
+  }
+
+  #title{
+    color: white;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 0.8em;
+    left: 5.5em;
+    font-size: 4em;
+  }
+
+  #INGREDIENTS{
+     color: white;
+     position: absolute;
+     top: 5em;
+     padding: 2em;
+     font-size: 2em;
+     left: 7em;
+  }
+
+  #servings{
+    color: white;
+    position: absolute;
+    top: 16.6em;
+    left: 33em;
+  }
+
+  #marination{
+    color: white;
+    position: absolute;
+    top: 35%;
+    padding: 2em;
+    font-size: 1.2em;
+    left: 5em;
+  }
+
+  #marination_list{
+    color: white;
+    position: absolute;
+    top: 47%;
+    left: 7em;
+   } 
+
+   #Rice{
+    color: white;
+    position: absolute;
+    top: 35%;
+    padding: 2em;
+    font-size: 1.2em;
+    left: 20em;
+   }
+
+   #Rice_list{
+    color: white;
+    position: absolute;
+    top: 47%;
+    left: 25em;
+   }
+
+
+.Step1{
+    color: white;
+    position: absolute;
+    top: 31em;
+    left: 1em;
+    font-size: 1.5em;
+}
+
+#img_biryani{
+height: 23em;
+width: 28em;
+position: relative;
+left :52em;
+border-radius: 2em;
+top: 10em;
+}

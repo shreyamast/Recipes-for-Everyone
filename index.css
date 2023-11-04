@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  height: 8vh;
+  margin-left: 3.125em;
+  /* width: 50px; */
+  padding: 0.625em;
+}
+.navbar {
+  height: 10vh;
+  display: flex;
+  width: 100vw;
+  background-color: black;
+  /* position: fixed; */
+}
+.cuisine {
+  padding: 0.6em;
+  font-size: 1.5em;
+  display: flex;
+  gap: 2.5em;
+  margin-left: 3.125em;
+  margin-top: 0.7em;
+  flex-grow: 1;
+  justify-content: center;
+  background: linear-gradient(to right, #f63a3a, #fc3b76, #fc6739);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Dai Banna SIL", serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.side {
+  height: 5vh;
+  margin: 0.6em;
+  margin-top: 1.25em;
+}
+
+main {
+  height: 190vh;
+  width: 100%;
+}
+
+.banner {
+  width: 98vw;
+  height: 87vh;
+  background-image: url(./Assests/banner.jpeg);
+  background-size: 100% 100%;
+  margin: 0.6em;
+}
+
+body {
+  background-color: black;
+  width: 50vw;
+}
+
+.box {
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+  font-family: "Dai Banna SIL", serif;
+  position: relative;
+  top: 0.9em;
+  left: 2.9em;
+  width: 8.4em;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  background-color: black;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 4em;
+}
+
+.card {
+  width: 20em;
+  height: 20em;
+  background-color: white;
+  margin-top: 4em;
+  border-top-right-radius: 4em;
+  border-bottom-left-radius: 4em;
+  border: 0.1em solid rgb(221, 6, 6);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img img {
+  height: 15em;
+  width: 15em;
+  margin-top: 1em;
+  border-top-right-radius: 4em;
+}
+
+.title {
+  font-size: 2em;
+  margin-top: 0.8em;
+  font-family: "Dai Banna SIL", serif;
+}
+
+.footer {
+  /* border-top: 2px solid white; */
+  height: 30vh;
+  width: 80vw;
+  position: relative;
+  top: 8em;
+  border-top: 0.1em solid white;
+}
+
+.footer_logo {
+  height: 20vh;
+  position: relative;
+  top: 3em;
+  left: 2em;
+  border: 0.125em solid white;
+  border-radius: 5em;
+}
+
+.text {
+  font-size: 3em;
+  position: relative;
+  left: 5em;
+  bottom: 2em;
+  font-family: "Dai Banna SIL", serif;
+  color: white;
+}
+
+ul a {
+  color: #ffffff;
+  position: relative;
+  left: 25em;
+  bottom: 2em;
+  font-size: 1.5em;
+  font-family: "Dai Banna SIL", serif;
+}
+
+.footer_copy {
+  color: white;
+  position: absolute;
+  right: 2em;
+  bottom: -84em;
+  font-family: monospace;
+}
+
+.footer-contact {
+  color: white;
+  position: absolute;
+  right: 2em;
+  bottom: -43em;
+  font-size: 1.5em;
+  font-family: "Dai Banna SIL", serif;
+}
