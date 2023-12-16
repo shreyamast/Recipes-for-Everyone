@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+   .cuisine {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        gap: 0;
+    }
+
+    nav ul.cuisine li {
+        margin: 10px 0;
+    }
+
+    nav input:checked~ul.cuisine {
+        display: flex;
+    }
+
+    nav{
+        background-color: white;
+    }
+    
+}

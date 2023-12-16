@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Dishes.css" />
-    <title>Veg Manchurian</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <div>
-          <a href="./Index.html">
-            <img class="logo" src="./Assests/chef.png" />
-          </a>
-        </div>
-        <div class="cuisine">
-          <a href="./indian.html">Indian</a>
-          <a href="./Chinese.html">Chinese</a>
-          <a href="./maharastrian.html">Maharastrian</a>
-          <a href="./Street Food.html">Street Food</a>
-          <a href="./Dessert.html">Dessert </a>
-        </div>
-        <div>
-          <img
-            class="side"
-            src="./Assests/heart.png"
-            style="margin-left: 50px"
-          />
-          <img
-            class="side"
-            src="./Assests/magnifying-glass.png"
-            style="margin-right: 20px"
-          />
-        </div>
-      </nav>
-    </header>
+
     <main>
       <section>
         <div>
@@ -119,5 +83,5 @@
         </ol>
       </div>
     </main>
-  </body>
-</html>
+
+Replace this  code with Honey chilli potato recipe

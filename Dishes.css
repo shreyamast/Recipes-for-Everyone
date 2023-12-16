@@ -23,7 +23,7 @@
     flex-grow: 1;
     justify-content: center;
     background: linear-gradient(to right, #f63a3a, #fc3b76, #fc6739);
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text;
     font-family: "Dai Banna SIL", serif;
   }
